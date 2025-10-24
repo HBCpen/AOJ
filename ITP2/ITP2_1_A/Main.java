@@ -19,7 +19,7 @@ public class Main{
                 array.remove(num);
             }
             else{
-                System.err.println("unexpected operation input. usage : <int operation> <int number>");
+                System.err.println("unexpected operation input at " + i + ". usage : <int operation> <int number>");
             }
         }
     }
